@@ -112,8 +112,12 @@ a:after {
 	color: #ffffff;
 	background-color: #FC993B;
 	border-color: transparent;
+  font-size: 40px;
 }
 
+.btn-theme a {
+  color:  white;
+}
 .btn {
 	padding: 10px 30px;
 	margin-bottom: 0;
@@ -132,8 +136,7 @@ a.anchor{display: block; position: relative; top: -65px; visibility: hidden;}
 /* hello */
 #hello {
 	width: 100%;
-	padding-top: 250px;
-	padding-bottom: 250px;
+	padding-bottom: 200px;
 }
 
 #hello h1 {
@@ -148,6 +151,11 @@ a.anchor{display: block; position: relative; top: -65px; visibility: hidden;}
 	font-weight: 400;
   font-size: 33px;
 }
+
+#hello .btn-theme {
+  font-size: 33px;
+}
+
 
 /* orange */
 #orange {
