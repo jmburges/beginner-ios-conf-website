@@ -6,7 +6,7 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
@@ -22,7 +22,7 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    
+
     margin-top: 70px;
 }
 
@@ -162,6 +162,7 @@ a.anchor{display: block; position: relative; top: -65px; visibility: hidden;}
 	background-color: #FC993B;
 	padding-top: 50px;
   font-size: 40px;
+  padding-bottom: 50px;
 	margin-bottom: 0px;
 }
 
@@ -182,6 +183,8 @@ a.anchor{display: block; position: relative; top: -65px; visibility: hidden;}
 
 #topics {
   padding-top:50px;
+  padding-bottom:50px;
+
 }
 #topics li {
   font-size: 30px;
@@ -244,4 +247,52 @@ a.anchor{display: block; position: relative; top: -65px; visibility: hidden;}
 }
 .grid img:hover {
     opacity: 1;
+}
+
+
+/* Orta */
+
+body {
+  margin-top:0;
+}
+
+#hello {
+  margin-top:0;
+  padding-top:96px;
+  background-color:white;
+  background: url(../img/bg-cropped.jpg) top center no-repeat;
+}
+
+.clear {
+  background-color:clear;
+}
+
+#hello h2 {
+  color:white;
+  text-shadow: 0px 1px 3px rgba(0,0,0, 0.5);
+}
+
+#speakers li {
+  list-style:none;
+  display:inline-block;
+  margin-bottom:28px;
+}
+
+
+#speakers li h4 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight:bold;
+  text-align:center;
+}
+
+#speakers li p {
+  font-size: 16px;
+  line-height: 18px;
+  margin:10px 0px;
+}
+
+#speakers li img {
+  width:100%;
+  border-radius: 18px;
 }
