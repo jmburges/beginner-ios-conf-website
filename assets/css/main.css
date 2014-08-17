@@ -282,19 +282,40 @@ body {
 
 
 #speakers li h4 {
-  font-size: 16px;
+  margin-top:18px;
+  font-size: 24px;
   line-height: 18px;
   font-weight:bold;
   text-align:center;
 }
 
+#speakers li p.subtitle {
+  margin-bottom:24px;
+}
+
 #speakers li p {
+  text-align:center;
+
   font-size: 16px;
   line-height: 18px;
   margin:10px 0px;
 }
 
+
 #speakers li img {
   width:100%;
   border-radius: 18px;
+}
+
+#speakers li a {
+  text-deocration:underline;
+  color:black;
+}
+
+.schedule ul {
+  padding-left:0;
+}
+.hosts p {
+  font-size: 18px;
+  color:white;
 }
