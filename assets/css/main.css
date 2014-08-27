@@ -319,3 +319,28 @@ body {
   font-size: 18px;
   color:white;
 }
+
+table {
+    margin-top:28px;
+}
+
+table .date {
+  font-size:18px;
+  text-align:left;
+}
+
+table .name {
+  font-size:18px;
+  text-align:left;
+}
+
+table .topic {
+  font-size:24px;
+  text-align:left;
+
+}
+
+table .break {
+  font-size:24px;
+  padding:40px;
+}
